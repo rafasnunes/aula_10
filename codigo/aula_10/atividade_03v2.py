@@ -1,10 +1,12 @@
-# Exercício 01 Versão 2
+# Exercício 01 Versão 3
 # Criar uma calculadora que receba dois números e seja capaz de somar, subtrair, multiplicar e dividir
-# Alterar a entrada dos números sendo aleatórios e não com entrada do usuário
+# Entrada aleatória de 2 números e o usuário selecionar via teclado qual operação executar com eles.
 
 import random
 
-#Funções do Programa
+
+# Funções do Programa
+
 
 def calc_soma(n1, n2):
     resultado = n1 + n2
@@ -29,8 +31,8 @@ def calc_div(n1, n2):
 # Início do código
 
 
-num1 = random.randint(1,50)
-num2 = random.randint(1,50)
+num1 = random.randint(1, 50)
+num2 = random.randint(1, 50)
 
 print('Digite a operação: ( + ) Soma ( - ) Subtração ( * ) Multiplicação ( / ) Divisão')
 
